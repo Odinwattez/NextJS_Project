@@ -57,7 +57,7 @@ importers:
         specifier: ^3.24.1
         version: 3.24.3
     devDependencies:
-      '@types/bcryptjs':
+      '@types/bcrypt':
         specifier: ^5.0.2
         version: 5.0.2
       '@types/node':
@@ -311,14 +311,7 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20 || >= 4.0.0-beta.1'
 
-<<<<<<< HEAD
-  '@tybys/wasm-util@0.9.0':
-    resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
-
-  '@types/bcryptjs@5.0.2':
-=======
   '@types/bcrypt@5.0.2':
->>>>>>> parent of e1b7cae (progress)
     resolution: {integrity: sha512-6atioO8Y75fNcbmj0G7UjI9lXN2pQ/IGJ2FWT4a/btd0Lk9lQalHLKhkgKVZ3r+spnmWUKfbMi1GEe9wyHQfNQ==}
 
   '@types/cookie@0.6.0':
@@ -1118,16 +1111,7 @@ snapshots:
       mini-svg-data-uri: 1.4.4
       tailwindcss: 3.4.17
 
-<<<<<<< HEAD
-  '@tybys/wasm-util@0.9.0':
-    dependencies:
-      tslib: 2.8.1
-    optional: true
-
-  '@types/bcryptjs@5.0.2':
-=======
   '@types/bcrypt@5.0.2':
->>>>>>> parent of e1b7cae (progress)
     dependencies:
       '@types/node': 22.10.7
 
